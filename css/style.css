@@ -6,6 +6,7 @@
 .container {
     max-width: 1370px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 /* header */
@@ -85,9 +86,23 @@ a {
 
 .intro {
     height: calc(100vh - 82.6px);
+    margin-bottom: 175px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.intro::after{
+    content: '';
     background-image: url(../images/bg.png);
     background-size: cover;
-    margin-bottom: 175px;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    z-index: -1;
 }
 
 .intro .intro__wrapper {
@@ -219,7 +234,7 @@ a {
 
 .advices .advices__wrapper .two h2::after {
     content: 'Write & Understand';
-    left: 20%;
+    left: 19%;
 }
 
 .advices .advices__wrapper .three {
@@ -321,7 +336,7 @@ a {
     background-image: url(../images/video.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 90%;
     border-radius: 12px;
     margin: 0 auto;
     display: flex;

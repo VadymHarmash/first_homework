@@ -1,0 +1,39 @@
+.description {
+    margin-bottom: 96px;
+}
+
+.description .description__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 135px;
+}
+
+.description .description__wrapper .description__title p {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: #424242;
+}
+
+.description .description__wrapper .description__title h2 {
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 79px;
+    color: #01996D;
+}
+
+.description .description__wrapper .description__details {
+    width: 85%;
+}
+
+.description .description__wrapper .description__details p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}

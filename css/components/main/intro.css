@@ -1,0 +1,59 @@
+.intro {
+    height: calc(100vh - 82.6px);
+    margin-bottom: 175px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.intro::after {
+    content: '';
+    background-image: url(../../../images/bg.png);
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    z-index: -1;
+}
+
+.intro .intro__wrapper {
+    width: 33%;
+    padding-top: 130px;
+}
+
+.intro .intro__wrapper h2 {
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+    font-family: 'Georgia';
+    font-weight: 700;
+}
+
+.intro .intro__wrapper p {
+    font-size: 20px;
+    line-height: 31.4px;
+    color: #484848;
+    margin: 30px 0 60px;
+    font-family: 'Lato';
+}
+
+.intro .intro__wrapper button {
+    border: 1px #01996D solid;
+    border-radius: 4px;
+    padding: 20px 50px;
+    background-color: #01996D;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 25px;
+    transition: background-color .2s, color .2s;
+    font-family: 'Lato';
+}
+
+.intro .intro__wrapper button:hover {
+    background-color: #FFFFFF;
+    color: #01996D;
+}

@@ -1,0 +1,100 @@
+.footer {
+    background-color: #245852;
+    padding: 95px 0 30px;
+}
+
+.footer .footer__wrapper .footer__menu nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .footer__wrapper .footer__menu ul li h2, a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer .footer__wrapper .footer__menu ul li h2 {
+    font-family: 'Avenir';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.footer .footer__wrapper .footer__menu ul li a {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.footer .footer__icons {
+    display: grid;
+    grid-template: 1fr / 0.2fr 0.5fr 0.3fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer .footer__icons nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer__icons nav ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer__icons .footer__social {
+    grid-column: 2 / 3;
+}
+
+.footer .footer__icons .footer__stores {
+    grid-column: 3 / 4;
+}
+
+.footer .footer__icons .footer__social ul {
+    gap: 50px;
+}
+
+.footer .footer__icons .footer__social ul li a {
+    border-radius: 50%;
+    background-image: conic-gradient(#FFFFFF, #FFFFFF);
+    padding: 30px;
+}
+
+.footer .footer__icons .footer__social ul li a:hover {
+    background-image: conic-gradient(from 180deg at 50% 50%, #80A4CE 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+}
+
+footer .footer__icons .footer__social ul li a img {
+    filter: grayscale(0%) brightness(100%) saturate(100%) hue-rotate(180deg);
+}
+
+footer .footer__icons .footer__social ul li a:hover img {
+    filter: grayscale(100%) brightness(0%) saturate(0%) invert(100%);
+}
+
+.footer .footer__icons .footer__stores ul {
+    gap: 15px;
+    position: relative;
+}
+
+.footer .footer__icons .footer__stores ul::before {
+    content: 'Discover our solutions';
+    position: absolute;
+    bottom: 110px;
+    left: 125px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}

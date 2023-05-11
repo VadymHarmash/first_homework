@@ -1,0 +1,90 @@
+.advices {
+    margin-bottom: 50px;
+}
+
+.advices .advices__wrapper {
+    display: grid;
+    grid-template: 60px 200px 550px 27px 265px / 1fr 1fr 1fr;
+    column-gap: 95px;
+}
+
+.advices .advices__wrapper .advices__advice h2 {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 225px;
+    color: #01996D33;
+    position: relative;
+}
+
+.advices .advices__wrapper .advices__advice h2::after {
+    content: '';
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    position: absolute;
+    top: 60%;
+    color: #000;
+}
+
+.advices .advices__wrapper .one {
+    grid-row: 1 / 4;
+}
+
+.advices .advices__wrapper .one h2::after {
+    content: 'Personalize';
+    left: 22%;
+}
+
+.advices .advices__wrapper .two {
+    grid-row: 3 / 6;
+    grid-column: 2 / 3;
+}
+
+.advices .advices__wrapper .two h2::after {
+    content: 'Write & Understand';
+    left: 19%;
+}
+
+.advices .advices__wrapper .three {
+    grid-row: 2 / 5;
+    grid-column: 3 / 4;
+}
+
+.advices .advices__wrapper .three h2::after {
+    content: 'Alivio!';
+    left: 31%;
+}
+
+.advices .advices__wrapper .advices__advice p {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}
+
+.advices .advices__wrapper .advices__advice img {
+    border-radius: 12px;
+}
+
+.advices .advices__wrapper .one .advices__image {
+    margin-top: 60px;
+    position: relative;
+}
+
+.advices .advices__wrapper .one .content {
+    position: absolute;
+    top: 225px;
+    left: calc(100% - 187px);
+    border-radius: 2% 0 0 2%;
+}
+
+.advices .advices__wrapper .two .advices__image {
+    margin-top: 37px;
+}
+
+.advices .advices__wrapper .three .advices__image {
+    margin-top: 48px;
+}
